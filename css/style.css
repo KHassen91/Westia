@@ -1,0 +1,832 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+/* HEADER START */
+.div1{
+    background-image: url("https://wistia.com/static/images/homepage/wistia-home-pattern_header@2x.webp  ");
+    height: 708px;
+    max-width: 100%;
+    background-size: 100px;
+    margin-top:0;
+    margin-left:0;
+    padding-left:0;
+    padding-top:0;
+}
+
+header{
+    padding-top:5px;
+    height: 70px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.logo{
+    position: relative;
+    left:10px;
+    top:-10px;
+ }
+ 
+ #logoblue{
+     display:none;
+ }
+
+header:hover{
+    color: black;
+    background: white;
+}
+
+header:hover>.logo>#logowhite{
+    display:none;
+}
+
+header:hover>.logo>#logoblue{
+    display:flex;
+}
+
+#up1 , #up2 , #up3 , #up4{
+    display:none;
+}
+.navmenu{
+    display:flex;
+    justify-content: space-between;
+    padding-top:10px;
+    margin-left:-20px;
+}
+
+#product1{
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+    Font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 15px;
+    Font-weight: 500;
+    z-index: 99;
+    Line-height: 18px;
+    color:white;
+}
+
+
+
+
+#learningcenter{
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+    Font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 15px;
+    Font-weight: 500;
+    Line-height: 18px;
+    color:white;
+}
+
+#learningcenter:hover{
+    color:#3EA9F5;
+    cursor: pointer;
+}
+
+
+#Podcasts{
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+    Font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 15px;
+    Font-weight: 500;
+    Line-height: 18px;
+    color:white;
+}
+
+#Podcasts:hover{
+    color:#3EA9F5;
+    cursor: pointer;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+    Font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 15px;
+    Font-weight: 500;
+    Line-height: 18px;
+    color:white;
+}
+
+#about:hover{
+    color:#3EA9F5;
+    cursor: pointer;
+}
+
+.navbar{
+    z-index: 999;
+
+}
+header:hover>.navbar>.navmenu>#product1{
+    color:#6c6e72
+}
+
+#product1:hover>#ppp{
+    color:#3EA9F5
+}
+#product1:hover>#down1{
+    display:none
+}
+
+#product1:hover>#up1{
+    display:flex;
+    color:#3EA9F5;
+}
+
+
+header:hover>.navbar>.navmenu>#learningcenter{
+    color:#6c6e72
+}
+
+header:hover>.navbar>.navmenu>#Podcasts{
+    color:#6c6e72
+}
+
+header:hover>.navbar>.navmenu>#about{
+    color:#6c6e72
+}
+
+
+.login{
+    border:0.25px;
+    border-color: #D6DADE;
+    border-style: solid;
+    background-color:white;
+    color:black;
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 13px;
+    Font-weight: 700;
+    Line-height: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-left:1109px;
+    margin-top:13px;
+}
+
+.getstarted{
+    border:0px;
+    background-color:#3EA9F5;
+    color:white;
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 13px;
+    Font-weight: 700;
+    Line-height: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 5px; 
+    margin-right:10px;
+    margin-top:13px;
+}
+
+.topbuttons{
+ display: flex;
+ justify-content: center;
+ margin-left:-750px;
+}
+
+.login:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 5px 0px #D6DADE;
+}
+
+.getstarted:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 5px 0px #0691F2;
+}
+
+/* HEADER END */
+
+/* MAIN START*/
+
+.top{
+    display:flex;
+    justify-content: space-between;
+    margin-left:60px;
+    margin-top:130px;
+    margin-right: 116px;
+}
+
+.maintitle{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif ;
+    Font-size: 40px;
+    font-weight: 600;
+    Line-height: 48px;
+    color: rgb(255, 255, 255);
+}
+
+.mainpara{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    Font-size: 21px;
+    Font-weight: 400;
+    Line-height: 28px;
+    color: rgb(255, 255, 255);
+}
+
+.tryforfree{
+    border:0px;
+    background-color:#EE5178;
+    color:white;
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: 500;
+    Line-height: 19.2px;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px; 
+}
+
+.tryforfree:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 5px 0px #DB2861;
+}
+
+.watchvideo{
+    border:0px;
+    background-color:white;
+    color:#4EB0F5;
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: 500;
+    Line-height: 19.2px;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;  
+    margin-left:10px;
+}
+
+.watchvideo:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 5px 0px #D6DADE;
+}
+
+.righttop{
+    position:relative;
+    top:-60px
+}
+
+.top1{
+    text-align: center;
+    margin-top: 105px;
+}
+
+#title{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 24px;
+    Font-weight: 700;
+    Line-height: 28.8px;
+    color: rgb(42, 45, 53);
+}
+
+.learnmore{
+    border:2px;
+    border-color: #3EA9F5;
+    border-style: solid;
+    color:#3EA9F5;
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: 500;
+    Line-height: 19.2px;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;  
+    margin-top: 11px;
+    background-color:white;
+}
+
+.learnmore:hover{
+    cursor: pointer;
+    box-shadow: 0px 3px 5px 0px #0691F2;
+    
+}
+ .bottom{
+     display: flex;
+     justify-content: space-between;
+     margin-left: 85px;
+     margin-right:85px;
+     margin-top:60px;
+ }
+
+ #tt{
+    Font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 21px;
+    Font-weight: bolder;
+    Line-height: 25.2px;
+    color: rgb(42, 45, 53);
+ }
+
+ #pp{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 18px;
+    font-weight: lighter;
+    Line-height: 26.1px;
+    color: rgb(42, 45, 53);
+ }
+
+.fa-desktop{
+    padding-left:15px;
+    color:#1C55C5;
+}
+
+.fa-chart-line{
+    padding-left:15px;
+    color:#F491AA;
+}
+
+.fa-ankh{
+    padding-left:15px;
+    color:#FAA928;
+}
+
+.fa-hands{
+    padding-left:15px;
+    color:#3AB16A;
+}
+
+.mid2{
+    display:flex;
+    background-color: #363945;
+    width: 100%;
+    height: 900px;
+    margin-top:125px;
+    padding-left:0px;
+}
+
+.text{
+    padding-top:253px;
+    padding-left:22px;
+}
+
+#wis{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 18px;
+    Font-weight: 600;
+    Line-height: 24px;
+    color: rgb(255, 255, 255);
+}
+
+#from{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 36px;
+    Font-weight: 500;
+    Line-height: 40px;
+    color: rgb(255, 255, 255);
+}
+
+#presented{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 24px;
+    Font-weight: 400;
+    Line-height: 34px;
+    color: rgb(255, 255, 255);
+}
+
+.view{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 18px;
+    Font-weight: 500;
+    Line-height: 21.6px;
+    color: rgb(104, 186, 245);
+}
+
+.view:hover{
+    cursor:pointer;
+}
+
+.img1{
+    background-image:url("https://images.ctfassets.net/j7pfe8y48ry3/mb061IJp0P7SVsHDyOb9g/47751aae81e50d138414d3388492743f/400x553-Website-Nav-Menu-Desktop.jpg");
+    border-radius: 8px;
+    background-size: cover;
+    width:423px;
+    height: 500px;
+    margin-top:200px;
+    margin-left:88px;
+    display:flex;
+    overflow:hidden;
+    align-items: flex-end;
+}
+#moredetails1{
+    border-top:0.5px;
+    border-right:0.25px;
+    border-bottom:0;
+    border-left:0;
+    border-style: solid;
+    border-color: white;
+    height: 57px;
+    width: 212px;
+    padding-right: 0;
+    background-color:rgba(63, 59, 59, 0.589);
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: bolder;
+    Line-height: normal;
+    color: rgb(255, 255, 255);
+}
+
+#moredetails1:hover{
+    cursor:pointer;
+    background-color:#2A2D35;
+}
+
+#playnow1{
+    border-top:0.5px;
+    border-left:0.25px;
+    border-right:0;
+    border-bottom:0;
+    border-style: solid;
+    border-color: white;
+    height: 57px;
+    width: 212px;
+    padding-left: 0px;
+    background-color:rgba(63, 59, 59, 0.589);
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: bolder;
+    Line-height: normal;
+    color: rgb(255, 255, 255);
+}
+
+#playnow1:hover{
+    cursor:pointer;
+    background-color:#DBBE87;
+}
+
+.img2{
+    background-image:url("https://images.ctfassets.net/j7pfe8y48ry3/01pFSQaxkltRQYSlHBkL7n/ece2aab2ea0bf53d78e98fd6f9b99872/card_brandwagon_update.jpg?fm=webp&q=90&w=1440");
+    border-radius: 8px;
+    background-size: cover;
+    width:423px;
+    height: 500px;
+    margin-top:200px;
+    margin-left:20px;
+    display:flex;
+    overflow:hidden;
+    align-items: flex-end;
+}
+
+#moredetails2{
+    border-top:0.5px;
+    border-right:0.25px;
+    border-bottom:0;
+    border-left:0;
+    border-style: solid;
+    border-color: white;
+    height: 57px;
+    width: 212px;
+    padding-right: 0;
+    background-color:rgba(63, 59, 59, 0.589);
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: bolder;
+    Line-height: normal;
+    color: rgb(255, 255, 255);
+}
+
+#moredetails2:hover{
+    cursor:pointer;
+    background-color:#2A2D35;
+}
+
+#playnow2{
+    border-top:0.5px;
+    border-left:0.25px;
+    border-right:0;
+    border-bottom:0;
+    border-style: solid;
+    border-color: white;
+    height: 57px;
+    width: 212px;
+    padding-left: 0px;
+    background-color:rgba(63, 59, 59, 0.589);
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: bolder;
+    Line-height: normal;
+    color: rgb(255, 255, 255);
+}
+
+#playnow2:hover{
+    cursor:pointer;
+    background-color:#EE5178;
+}
+
+.tit3{
+    text-align:center;
+    margin-top:150px;
+}
+
+.wiswis{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 24px;
+    Font-weight: 700;
+    Line-height: 28px;
+    color: rgb(42, 45, 53);
+}
+
+.imags{
+    display:flex;
+    justify-content: space-between;
+    margin-left:224px;
+    margin-right:220px;
+    margin-top:61px;
+}
+
+.see{
+    text-align: center;
+    margin-top:212px;
+    Font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 24px;
+    Font-weight: 700;
+    Line-height: 28px;
+    color: rgb(42, 45, 53);
+}
+
+.pictures{
+    display:flex;
+    justify-content: space-around;
+    margin-left:85px;
+    margin-right:85px;
+    margin-top:35px;
+}
+
+.help{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 18px;
+    Font-weight: 700;
+    Line-height: 21.6px;
+    color: rgb(42, 45, 53);
+}
+
+.we{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 28px;
+    color: rgb(42, 45, 53);
+}
+
+.more{
+    Font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: 400;
+    Line-height: 19.2px;
+    color: rgb(55, 105, 204);
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.bottom1{
+    background-image: url("https://wistia.com/static/images/homepage/wistia-home-pattern_header@2x.webp  ");
+    max-width: 100%;
+    background-size: 100px;
+    height: 636px;
+    margin-top:93px;
+    margin-right:0;
+    margin-left:0;
+    /* margin-bottom:0; */
+    text-align: center;
+}
+
+.ready{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 36px;
+    Font-weight: 500;
+    Line-height: 52.2px;
+    color: rgb(249, 249, 249);
+    padding-top:238px;
+}
+
+.lesboutons{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:248px;
+}
+
+.try{
+    border:0px;
+    background-color:#EE5178;
+    color:white;
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: 500;
+    Line-height: 19.2px;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px; 
+    margin-left:460px;
+    cursor:pointer;
+}
+
+.try:hover{
+    box-shadow: 0px 3px 5px 0px #DB2861;
+}
+
+.explore{
+    border:0px;
+    background-color:white;
+    color:black;
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 16px;
+    Font-weight: 700;
+    Line-height: 19.2px;
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;  
+    margin-right:460px; 
+    cursor: pointer;
+}
+
+.explore:hover{
+    box-shadow: 0px 3px 5px 0px #D6DADE;
+}
+
+/* MAIN END */
+
+/* FOOTER START */
+footer{
+    background-color: #363945;
+    width: 100%;
+    height: 500px;
+    margin-top:0;
+    margin-bottom:0;
+    padding-bottom: 0;
+}
+
+#foot{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lasttext{
+    padding-top:50px;
+    margin-left:20px;
+}
+
+.software{
+    position: relative;
+    top:-60px;
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 30px;
+    Font-weight: 400;
+    Line-height: 39px;
+    color: rgb(255, 255, 255)
+}
+
+.lg{
+    width:250px;
+    height:100;
+    padding-bottom: 0;
+    position: relative;
+    left:-15px;
+}
+
+.follow{
+    position: relative;
+    top:-60px;
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(255, 255, 255)
+}
+
+.links{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-weight: 400;
+    Line-height: 24px;
+    color: rgb(58, 177, 106);
+}
+
+.links:hover{
+    cursor: pointer;
+    color:#327753;
+    text-decoration: underline;
+}
+
+.vl {
+    border-left: 1px solid #4f545f;
+    height: 200px;
+    margin-right: 1050px;
+    margin-top: 65px;
+    margin-left:px;
+  }
+
+  .llists{
+      display:flex;
+      justify-content: space-between;
+      margin-left:-800px;  
+      margin-right:102px;  
+      margin-top:77px;
+  }
+
+  .blist1{
+      list-style-type: none;
+      margin-left:-350px;
+      padding-bottom:50px;
+      line-height: 50%;
+      margin-bottom:200px;
+  }
+
+  
+  #product{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 11px;
+    Font-weight: 800;
+    Line-height: 14.3px;
+    color: rgb(156, 168, 183);
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  #bl{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 18px;
+    color: rgb(219, 219, 219);
+    cursor:pointer;
+  }
+
+  #bl:hover{
+    color:rgb(255, 255, 255);
+  }
+
+  #start{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 18px;
+    color: rgb(62, 169, 245);
+    cursor:pointer;
+  }
+
+  #start:hover{
+    color: rgb(121, 199, 255);
+  }
+
+  #all{
+    Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    Font-size: 15px;
+    Font-weight: 400;
+    Line-height: 18px;
+    color: rgb(242, 115, 152);
+    cursor:pointer;
+  }
+
+  #all:hover{
+    color: rgb(241, 145, 172);
+  }
+  
+ .blist1>li{
+      padding: 5px 0;
+      padding-right:55px;
+      padding-left:25px;
+  }
+
+  .blist3>li{
+    padding: 5px 0;
+}
+
+.blist2>li{
+    padding: 5px 0;
+}
+
+.blist4>li{
+    padding: 5px 0;
+}
+ 
+  .copyright{
+      text-align: center;
+      Font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      Font-size: 16px;
+      Font-weight: 400;
+      Line-height: 19.2px;
+      margin-top:-50px;
+      color: rgb(178, 185, 193);
+  }
+
+  #lalinks{
+      text-decoration: underline;
+      cursor:pointer;
+  }
+
+  #lalinks:hover{
+      color:#3EB48E;
+  }
+  #product1:hover {
+color: #0691F2;
+z-index: 9999;
+     cursor: pointer;
+ }
+ 
+
+/* FOOTER END */
